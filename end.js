@@ -9,7 +9,7 @@
 
 	// Polyfill (verb)
 	var endSupport = "end" in local.Promise.prototype;
-	if (!endSupport) local.Promise.prototype['end'] = endPolyfill;
+	if (!endSupport) local.Promise.prototype.end = endPolyfill;
 
 	// Polyfill (noun)
 	function endPolyfill() {
