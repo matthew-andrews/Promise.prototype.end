@@ -1,0 +1,25 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/opt/boxen/nodenv/versions/v0.10/bin/npm', 'publish' ]
+2 info using npm@1.4.10
+3 info using node@v0.10.26
+4 verbose node symlink /opt/boxen/nodenv/versions/v0.10/bin/node
+5 verbose publish [ '.' ]
+6 error Error: No version provided
+6 error     at needVersion (/opt/boxen/nodenv/versions/v0.10.26/lib/node_modules/npm/lib/publish.js:116:40)
+6 error     at /opt/boxen/nodenv/versions/v0.10.26/lib/node_modules/npm/lib/publish.js:35:10
+6 error     at /opt/boxen/nodenv/versions/v0.10.26/lib/node_modules/npm/node_modules/read-package-json/read-json.js:51:40
+6 error     at final (/opt/boxen/nodenv/versions/v0.10.26/lib/node_modules/npm/node_modules/read-package-json/read-json.js:349:17)
+6 error     at then (/opt/boxen/nodenv/versions/v0.10.26/lib/node_modules/npm/node_modules/read-package-json/read-json.js:126:33)
+6 error     at /opt/boxen/nodenv/versions/v0.10.26/lib/node_modules/npm/node_modules/read-package-json/read-json.js:331:40
+6 error     at fs.js:266:14
+6 error     at /opt/boxen/nodenv/versions/v0.10.26/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:105:5
+6 error     at Object.oncomplete (fs.js:107:15)
+7 error If you need help, you may report this *entire* log,
+7 error including the npm and node versions, at:
+7 error     <http://github.com/npm/npm/issues>
+8 error System Darwin 13.4.0
+9 error command "node" "/opt/boxen/nodenv/versions/v0.10/bin/npm" "publish"
+10 error cwd /Users/mandrews/sandboxes/Promise.prototype.end
+11 error node -v v0.10.26
+12 error npm -v 1.4.10
+13 verbose exit [ 1, true ]
