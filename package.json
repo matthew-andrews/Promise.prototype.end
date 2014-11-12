@@ -1,6 +1,6 @@
 {
   "name": "promise.prototype.end",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "end.js",
   "devDependencies": {
     "es6-promise": "^2.0.0",
