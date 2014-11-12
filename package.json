@@ -1,0 +1,8 @@
+{
+  "name": "promise.prototype.end",
+  "main": "end.js",
+  "devDependencies": {
+    "es6-promise": "^2.0.0",
+    "mocha": "^2.0.1"
+  }
+}
